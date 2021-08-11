@@ -1,0 +1,6 @@
+ktrain
+pdfplumber
+pdfminer.six
+tika
+textwrap3
+python-docx

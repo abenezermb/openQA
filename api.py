@@ -8,5 +8,5 @@ app.config["DEBUG"] = True
 
 # define the API route here
 @app.route('/',methods=['GET'])
-def home():
+def home('/question'):
     return '''Something is fishy here'''
