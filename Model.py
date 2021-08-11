@@ -1,4 +1,4 @@
-import ktrain
+# import ktrain
 from ktrain import text
 
 # # input data
@@ -29,3 +29,8 @@ def loadModel(docs):
 def askQuestion(qa,question):
     answers = qa.ask(question)
     return answers[:5]
+
+from DataPreprocessing import *
+filename = './sample.pdf'
+text = fetchText(filename)
+print(text)
